@@ -1,0 +1,500 @@
+/* PROPIEDADES COMUNES */
+header, main, section, article, footer, aside { display: block; }
+body { margin: 0 !important; }
+a { text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p, a, form, input, textarea, select, option, span { font-family: 'Poppins', sans-serif; }
+h1, h2, h3, h4, h5, h6, p, span { margin: 0; }
+
+body { #070519 100%);
+    background: -webkit-linear-gradient(top, #16114e 2%,#0d0a2d 33%,#0d0a2d 67%,#070519 100%);
+    background: linear-gradient(to bottom, #16114e 2%,#0d0a2d 33%,#0d0a2d 67%,#070519 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16114e', endColorstr='#070519',GradientType=0 );}
+
+/*ASIDE*/
+
+aside#menu-responsive{width: 290px; height: 100%; margin: 0; float: none; position: fixed; top: 0; right: -290px; z-index: 9999; display: none; background: #070519 }
+
+aside#menu-responsive a#abrir{ width: 40px; height: auto; float: none; margin: 0; display: block; position: absolute; top: 12px; left: -48px; color: #fff; text-align: center; padding: 10px 0; border-radius: 5px 0 0 5px; transition: all 0.3s ease-in;}
+aside#menu-responsive a#abrir:hover{ color:#F29100; transition: all 0.3s ease-in;}
+
+aside#menu-responsive a i#abrir{  } 
+
+aside#menu-responsive a#cerrar{ width: 40px; height: auto; float: none; margin: 0; display: none; position: absolute; top: 12px; right: 10px; color: #fff; text-align: center; padding: 10px 0; border-radius: 5px 0 0 5px; transition: all 0.3s ease-in;}
+aside#menu-responsive a#cerrar:hover{ color: #F29100; transition: all 0.3s ease-in; }
+
+aside#menu-responsive a i#cerrar { }
+
+aside#menu-responsive nav#menu-responsive{ width: 80%; height: auto; display: block; margin: 90px auto 0 auto; float: none; position: relative; }
+aside#menu-responsive nav#menu-responsive a{width: 42%; height: auto; display: block; margin: 0 auto 18px; float: none; position: relative; color: #fff; text-decoration: none; transition: all 0.3s ease-in; text-align: center; border-bottom: 1px solid #070519; }
+
+aside#menu-responsive nav#menu-responsive a:hover { transition: all 0.3s ease-in; color: #F29100; border-bottom: 1px solid #F29100;}
+
+
+
+/*ASIDE: WHATSAPP BOTTOM*/
+
+aside#boton-wp { width: 50px; height: 50px; position: fixed; bottom: 50px; right: 50px; float: none; z-index: 99996; }
+aside#boton-wp a { width: 50px; height: 50px; font-size: 24px; color: #fff; text-align: center; display: block; transition: all 0.3s ease-in; background: #F29100; border-radius: 50px;  }
+aside#boton-wp a i { padding: 12px 0 0; }
+aside#boton-wp a:hover { transition: all 0.3s ease-in; background: #070514; border-radius: 50px;}
+
+
+/*HEADER*/
+
+header{ width: 100%; height: auto; position: fixed; display: block; margin: 0 auto; float: none; z-index: 999; }
+header article{ width: 1150px; height: 60px;  position:relative; float: none; margin: 0 auto; display: block; padding: 20px 0 0 0; }
+
+header article a { width: 40px; height: 100%;  position:relative; float: left; display: block; margin: 0 auto; }
+header article a img { width: 40px; height: auto;  position:relative; margin: 0 auto; float: left; display: block; }
+header article a:hover { }
+header article a:hover img { }
+
+header article nav#menu-principal{ width: 500px; height: auto; position:relative;  float: right; margin: 0 auto; display: block; padding: 10px 0 0 0; }
+header article nav#menu-principal a{ display: block; position:relative;  color: white; width: auto; height: auto; float: left; margin: 0 40px 0 0; font-size: 16px; font-weight: 400; letter-spacing: 0.02em; transition: all 0.3s ease-in; text-align: center; border-bottom: 1px solid #07051900;}
+header article nav#menu-principal a:hover{ transition: all 0.3s ease-in; color: #F29100; border-bottom: 1px solid #F29100; }
+
+.transparent { background: rgb(196 196 196 / 0%);}
+.blue { background: rgba(10, 7, 38, 0.829);}
+
+
+/*MAIN*/
+
+main {  width: 100%; height: auto; position: relative; margin: 0 auto; float: none; display: block; }
+
+
+/*Section: PRESENTACION*/
+
+main section#presentacion { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; display: block; }
+
+main section#presentacion article { width: 1150px; height: auto; position: relative; margin: 0 auto; float: none; display: block;}
+main section#presentacion article div { width: 640px; height: auto; position: relative; margin: 0 auto 85px; float: none; display: block; padding: 157px 0 0; }
+main section#presentacion article div h1 { font-size: 69px; font-weight: 700; color: #F29100; text-align: center; }
+main section#presentacion article div h2 { font-size: 45px; font-weight: 500; color: #fff; text-align: center; }
+main section#presentacion article div h2 i { font-size: 16px; color: #F29100; margin: 0 auto; position: relative; top: -6px; }
+
+
+main hr { width: 500px; margin: 0 auto 55px; }
+
+
+/*Section: WHO AM I*/
+
+main section#who-am-i { width: 100%; height: auto; position: relative; margin: 50px auto; float: none; display: block;}
+
+main section#who-am-i article { width: 1150px; height: 500px; position: relative; margin: 0 auto; float: none; display: block; }
+main section#who-am-i article figure { width: auto; height: auto; position: relative; margin: 0 auto; float: left; display: block; padding: 0 120px 0 80px;}
+main section#who-am-i article figure img { width: 494px; height: auto; position: relative; margin: 0 auto; float: left; display: block;}
+
+main section#who-am-i article div { width: 340px; height: auto; position: relative; margin: 72px auto; float: left; display: block;}
+main section#who-am-i article div h3 { font-size: 18px; font-weight: 600; color: #F29100; margin: 0 auto; float: left; position: relative; padding: 0 0 16px; width: 100%; }
+main section#who-am-i article div h4 { font-size: 35px; font-weight: 700; color: #ffff; float: left; margin: 0 auto; position: relative; padding: 0 0 16px; }
+main section#who-am-i article div p { font-size: 16px; font-weight: 200; color: #ffff; float: left; margin: 0 auto; position: relative; line-height: 1.75em; padding: 0 0 35px;}
+main section#who-am-i article div p { font-weight: 500; }
+
+main section#who-am-i article div nav { width: 250px; height: auto; position: relative; float: left; margin: 0 auto; display: block; }
+main section#who-am-i article div nav a { width: 35px; height: 35px; position: relative; background: #ffff; margin: 0 16px 0 0; float: left; display: block; font-size: 20px; text-align: center; border-radius: 50%; color: #070519; transition: all 0.3s ease-in; }
+main section#who-am-i article div nav a i { padding: 7px 0 0 0; }
+main section#who-am-i article div nav a:hover { transition: all 0.3s ease-in; color: #070519; background: #F29100;}
+main section#who-am-i article div nav a:hover i { }
+
+
+/*Section: PORTAFOLIO*/
+
+main section#portafolio {width: 100%; height: auto; position: relative; margin: 0 auto; float: none; display: block; padding: 20px 0 0 0; }
+
+main section#portafolio article {width: 1150px; height: auto; position: relative; margin: 0 auto; float: none; display: block; }
+
+main section#portafolio article div {width: 300px; height: auto; position: relative; float: none; margin: 0 auto 80px; display: block;}
+main section#portafolio article div h3 { font-size: 18px; font-weight: 600; color: #F29100; margin: 0 auto; float: none; text-align: center; position: relative; padding: 0 0 8px; }
+main section#portafolio article div h4 { font-size: 35px; font-weight: 700; color: #ffff; float: none; text-align: center; margin: 0 auto; position: relative; }
+
+main section#portafolio article div#project-left { width: 100%; height: 422px; position: relative; margin: 0 auto 75px; float: none; }
+
+main section#portafolio article div#project-left div.info { width: 373px; height: auto; position: relative; margin: 52px auto; float: left; display: block; padding: 0 187px 0 0; }
+main section#portafolio article div#project-left div.info h4 { float: left; width: 100%; text-align: left; padding: 0 0 8px 0; }
+main section#portafolio article div#project-left div.info h3 { float: left; font-weight: 500; padding: 0 0 20px 0; width: 100%; text-align: left; }
+main section#portafolio article div#project-left div.info p { font-size: 16px; color: #ffff; float: left; font-weight: 200; padding: 0 0 35px 0; }
+main section#portafolio article div#project-left div.info b { font-weight: 500; }
+main section#portafolio article div#project-left div.info a { font-size: 16px; font-weight: 500; color: #ffff; float: right; border-bottom: 1px solid rgba(255, 255, 255, 0); transition: all 0.3s ease-in;}
+
+main section#portafolio article div#project-left div.info a:hover { transition: all 0.3s ease-in; border-bottom: 1px solid #fff;}
+
+main section#portafolio article div#project-left figure { width: auto; height: auto; position: relative; float: left; margin: 0 auto; }
+main section#portafolio article div#project-left figure img { width: 590px; height: auto; position: relative; float: none; margin: 0 auto; }
+
+
+
+
+main section#portafolio article div#project-right { width: 100%; height: 471px; position: relative; margin: 0 auto 75px; float: none; display: block; }
+main section#portafolio article div#project-right figure { width: auto; height: auto; position: relative; float: left; margin: 0 auto; padding: 0 187px 0 0;}
+main section#portafolio article div#project-right figure img { width: 410px; height: auto; position: relative; float: none; margin: 0 auto; }
+
+main section#portafolio article div#project-right div.info { width: 373px; height: auto; position: relative; margin: 65px auto; float: left; display: block; }
+main section#portafolio article div#project-right div.info h4 { float: left;width: 100%;text-align: left;padding: 0 0 8px 0; }
+main section#portafolio article div#project-right div.info h3 { float: left; font-weight: 500; padding: 0 0 20px 0; width: 100%; text-align: left; }
+main section#portafolio article div#project-right div.info p { font-size: 16px; color: #ffff; float: left; font-weight: 200; padding: 0 0 35px 0; }
+main section#portafolio article div#project-right div.info b { font-weight: 500; }
+main section#portafolio article div#project-right div.info a { font-size: 16px; font-weight: 500; color: #ffff; float: right; border-bottom: 1px solid rgba(255, 255, 255, 0); transition: all 0.3s ease-in; }
+
+main section#portafolio article div#project-right div.info a:hover {border-bottom: 1px solid rgb(255, 255, 255); transition: all 0.3s ease-in; }
+
+
+
+
+
+/*PROJECT RIGHT RESPONSIVE*/
+
+main section#portafolio article div#project-right-responsive {  width: 100%; height: 471px; position: relative; margin: 0 auto 75px; float: none; display: none; }
+
+main section#portafolio article div#project-right-responsive div.info { width: 373px; height: auto; position: relative; margin: 65px auto; float: left; display: block;}
+main section#portafolio article div#project-right-responsive div.info h4 {  float: left;width: 100%;text-align: left;padding: 0 0 8px 0; }
+main section#portafolio article div#project-right-responsive div.info h3 { float: left; font-weight: 500; padding: 0 0 20px 0; width: 100%; text-align: left;}
+main section#portafolio article div#project-right-responsive div.info p { font-size: 16px; color: #ffff; float: left; font-weight: 200; padding: 0 0 35px 0;}
+main section#portafolio article div#project-right-responsive div.info b {  font-weight: 500; }
+main section#portafolio article div#project-right-responsive div.info a { font-size: 16px; font-weight: 500; color: #ffff; float: right; border-bottom: 1px solid rgba(255, 255, 255, 0); transition: all 0.3s ease-in; }
+
+main section#portafolio article div#project-right-responsive figure { width: auto; height: auto; position: relative; float: left; margin: 0 auto; padding: 0;}
+main section#portafolio article div#project-right-responsive img { width: 590px; height: auto; position: relative; float: none; margin: 0 auto; }
+
+
+
+
+
+main hr { width: 500px; margin: 0 auto 55px;  }
+
+
+/*Section:GALLERY*/
+
+main section#gallery {width: 100%; height: auto; position: relative; margin: 0 auto; float: none; display: block; }
+
+main section#gallery article { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; display: block; }
+main section#gallery article div { width: 100%; height: auto; position: relative; float: none; margin: 0 auto; display: block; }
+main section#gallery article div h4 { font-size: 35px; font-weight: 700; color: #ffff; float: none; margin: 0 auto; position: relative; padding: 0 0 45px; text-align: center; }
+main section#gallery article div nav { width: 100%; height: 258px; position: relative; float: none; margin: 0 auto; }
+
+main section#gallery article div nav a { display: block; transition: all 0.3s ease-in;}
+main section#gallery article div nav a:hover { opacity: 0.5; transition: all 0.3s ease-in; }
+main section#gallery article div nav a#img-logo-01 { width: 25%; height: 100%; float: left; background: url(../img/garden-logo.jpg) no-repeat top center; background-size: cover; display: block;}
+main section#gallery article div nav a#img-logo-02 { width: 25%; height: 100%; float: left; background: url(../img/moras-logo.jpg) no-repeat top center; background-size: cover; display: block; }
+main section#gallery article div nav a#img-logo-03 { width: 25%; height: 100%; float: left; background: url(../img/stamp-on-logo.jpg) no-repeat top center; background-size: cover; display: block;}
+main section#gallery article div nav a#img-logo-04 { width: 25%; height: 100%; float: left; background: url(../img/frumilk-logo.jpg) no-repeat top center; background-size: cover; display: block; }
+
+
+/*Section: LIST*/
+
+main section#list { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; display: block; background: #050316;}
+
+main section#list article { width: 1150px; height: auto; position: relative; margin: 0 auto; float: none; display: block; padding: 60px 0 60px 0; }
+main section#list article div { width: 100%; height: auto; position: relative; float: none; display: block; margin: 0 auto 50px; }
+main section#list article div h3 {  font-size: 18px; font-weight: 600; color: #F29100; margin: 0 auto; float: none; position: relative; padding: 0 0 8px; text-align: center; }
+main section#list article div h4 {  font-size: 35px; font-weight: 700; color: #ffff; float: none; margin: 0 auto; position: relative; text-align: center; }
+
+main section#list article div#list-skills { width: 1026px; height: 266px; position: relative; margin: 0 auto; float: none; display: block; }
+main section#list article div#list-skills div {  width: 186px; height: auto; margin: 0 192px auto 0; position: relative; float: left; display: block; }
+
+main section#list article div#list-skills div:last-child {width: 269px; margin: 0;}
+
+main section#list article div#list-skills div h4 { font-size: 25px; width: 100%; font-weight: 700; float: left; color: #fff; padding: 0 0 30px; text-align: left; }
+
+main section#list article div#list-skills div div.list { width: 271px; height: auto; margin: 0 118px auto 0; position: relative; float: left; display: block; }
+main section#list article div#list-skills div div.list p { font-size: 16px; font-weight: 400; color: #ffff; padding: 0 0 5px; }
+main section#list article div#list-skills div div.list p i { font-size: 10px; padding: 0 20px 0 0; color: #F29100; }
+
+main section#list article div#list-skills p:last-child { font-size: 20px; font-weight: 600; color: #F29100;}
+main section#list article div#list-skills p i:last-child {position: relative; font-size: 6px; margin: 0 auto; float: none; color: #fff; top: -4px;}
+
+
+/*FOOTER*/
+
+footer#contact-me {width: 100%; height: auto; position: relative; margin: 0 auto; float: none; display: block; } 
+
+footer#contact-me article { width: 1150px; height: auto; position: relative; margin: 0 auto; float: none; display: block; }
+footer#contact-me article div { width: 272px; height: auto; position: relative; float: left; margin: 45px auto;}
+footer#contact-me article div p { font-size: 16px; font-weight: 400; color: #ffff; float: left; padding: 4px 29px 0 0; }
+
+footer#contact-me article nav { width: 108px; height: auto; position: relative; margin: 0 auto; float: left;  }
+footer#contact-me article nav a { width: 35px; height: 35px; position: relative; background: #ffff; margin: 0 16px 0 0; float: left; display: block; font-size: 20px; text-align: center; border-radius: 50%; color: #070519; transition: all 0.3s ease-in; }
+footer#contact-me article nav a i { padding: 7px 0 0 0;  }
+footer#contact-me article nav a:hover { transition: all 0.3s ease-in; background: #F29100;}
+footer#contact-me article nav a:hover i { }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1210px){
+
+    section#portafolio article { width: 90% !important; height: auto; float: none; display: block; }
+    section#portafolio article div#project-left div.info { padding: 0 !important ;}
+
+    main section#portafolio article div#project-left figure { float: right ; }
+
+    section#portafolio article div#project-right figure { padding: 0 !important ;}
+
+    main section#portafolio article div#project-right div.info { float: right ; }
+ }
+
+@media only screen and (max-width: 1199px){
+
+    aside#menu-responsive { display: block;} 
+
+    header article { width: 90%; height: 52px; padding: 12px 0 0 0;}
+
+    header article nav#menu-principal { display: none;}
+
+
+    /*Section: PRESENTACION*/
+
+    main section#presentacion article { width: 90%;}
+    main section#presentacion article div { width: 59%; }
+
+    main section#presentacion article div h1 { font-size: 60px;}
+    main section#presentacion article div h2 { font-size: 40px; }
+    main section#presentacion article div h2 i { font-size: 14px; }
+
+    main hr { width: 40%;}
+
+
+    /*Section: WHO AM I*/
+
+    main section#who-am-i article { width: 80%; height: auto; }
+    main section#who-am-i article figure { padding: 0 110px 0 0;}
+
+
+
+    section#portafolio article { width: 85% !important; }
+    section#portafolio article div#project-left div.info { padding: 0 !important ;}
+
+    main section#portafolio article div#project-left figure { float: right; }
+
+
+
+}
+
+@media only screen and (max-width: 1196px ) {
+
+
+    main section#who-am-i article figure { width: 100%; margin: 0 auto; float: none; padding: 0 0 25px;}
+    main section#who-am-i article figure img { height: auto; width: 55%; margin: 0 auto; float: none;}
+
+    main section#who-am-i article div { width: 60%; height: 266px; position: relative; margin: 0 auto; float: none; display: block;}
+
+
+    section#portafolio article { width: 85%; height: auto; float: none; display: block; }
+    section#portafolio article div#project-left div.info { padding: 0;}
+
+    main section#portafolio article div#project-left figure { float: right ; }
+
+    main section#portafolio article div#project-right figure { float: left ;}
+
+
+}
+
+@media only screen and (max-width: 1180px) {
+
+
+    /*SECTION: PRESENTACION RESPONSIVE*/
+
+    main section#presentacion article div h1 { font-size: 45px;}
+    main section#presentacion article div h2 { font-size: 30px; }
+    main section#presentacion article div h2 i { font-size: 10px; }
+
+
+
+
+
+    main section#who-am-i article div { width: 80%; height: 320px; }
+
+
+    main section#portafolio article div#project-left div.info { width: 37%;}
+
+    main section#portafolio article div#project-left figure img { width: 85%; float: right;}
+    
+    main section#portafolio article div#project-right div.info { width: 37%; float: right;}
+
+    main section#portafolio article div#project-right figure { padding: 0 !important;}
+
+    main section#portafolio article div#project-right figure img { width: 85% !important;}
+
+
+
+    /*FOOTER*/
+
+    footer#contact-me article { width: 80%;}
+    
+
+}
+
+
+ 
+
+@media only screen and (max-width: 1120px){ 
+
+    main section#portafolio article div { width: 80% !important; height: auto; margin: 0 auto 40px;}
+
+    main section#portafolio article div#project-left { height: auto;}
+
+    main section#portafolio article div#project-left div.info { width: 100% !important; height: auto; position: relative; margin: 0 auto 50px; }
+
+    section#portafolio article div#project-left figure { float: none !important; width: 85% !important; }
+    section#portafolio article div#project-left figure img { width: 85%; float: none !important; margin: 0 auto; display: block; }
+
+
+    main section#portafolio article div#project-right { display: none;}
+
+
+    main section#portafolio article div#project-right-responsive { display: block; height: auto;}
+
+    main section#portafolio article div#project-right-responsive div.info { width: 100% !important; height: auto; position: relative; margin: 0 auto 50px; }
+
+    section#portafolio article div#project-right-responsive figure { float: none !important; width: 85%; }
+    section#portafolio article div#project-right-responsive figure img { width: 60%; float: none !important; margin: 0 auto; display: block; }
+
+
+    /*SECTION: SKILLS*/
+
+    main section#list article { width: 80%;}
+
+
+    main section#list article div#list-skills { width: 60%; height: 400px;}
+
+    main section#list article div#list-skills div { width: 186px; height: 270px; margin: 0 15px 48px 0;}
+
+    main section#list article div#list-skills div:nth-child(2) { margin: 0 0 48px 0; float: right;}
+
+
+
+
+
+
+
+ }
+
+@media only screen and (max-width: 999px){ 
+
+
+    main hr { width: 40%; margin: 0 auto 30px;}
+
+    /*SECTION: WHO AM I*/
+
+    main section#who-am-i article div h3 { font-size: 16px;}
+    main section#who-am-i article div h4 { font-size: 30px;}
+    main section#who-am-i article div p { font-size: 14px;}
+
+
+    /*SECTION: PORTFOLIO*/
+
+    main section#portafolio article div h3 { font-size: 16px;}
+    main section#portafolio article div h4 { font-size: 30px;}
+
+    main section#portafolio article div#project-left div.info h4 { font-size: 24px;}
+
+    main section#portafolio article div#project-right-responsive div.info h4 { font-size: 24px; }
+
+    main section#portafolio article div#project-left div.info p { font-size: 14px;}
+
+    main section#portafolio article div#project-right-responsive div.info p { font-size: 14px; }
+
+
+    /*Some Brand Design*/
+
+    main section#gallery article div h4 { font-size: 24px;}
+
+    main section#gallery article div nav { width: 100%; height: 770px;}
+
+    section#gallery article div nav a#img-logo-01 { width: 50% !important; height: 50% !important;}
+
+    section#gallery article div nav a#img-logo-02 { width: 50% !important; height: 50% !important;}
+
+    section#gallery article div nav a#img-logo-03 { width: 50% !important; height: 50% !important;}
+
+    section#gallery article div nav a#img-logo-04 { width: 50% !important; height: 50% !important;}
+
+
+    /* SECTION: SKILLS*/
+
+
+    main section#list article div h3 { font-size: 16px;}
+    main section#list article div h4 { font-size: 24px;}
+
+    main section#list article div#list-skills { height: 335px;}
+
+    main section#list article div#list-skills div { width: 186px; height: 229px; margin: 0 15px 48px 0;}
+    main section#list article div#list-skills div h4 { font-size: 20px;}
+    main section#list article div#list-skills div div.list { width: 164px;}
+    main section#list article div#list-skills div div.list p { font-size: 14px;}
+
+    main section#list article div#list-skills div:last-child { width: 269px; height: auto; margin: 0;}
+    main section#list article div#list-skills div h4 { font-size: 20px; padding: 0 0 16px;}
+    main section#list article div#list-skills p:last-child { font-size: 18px;}
+
+
+    /*FOOTER*/
+
+    footer#contact-me article div { width: 243px;}
+    footer#contact-me article div p { font-size: 14px;}
+    footer#contact-me article nav { width: 98px;}
+    footer#contact-me article nav a { width: 33px; height: 33px; font-size: 18px;}
+
+
+ }
+
+
+
+@media only screen and (max-width: 824px){
+
+
+    main section#portafolio article div#project-left figure img { width: 100%;}
+    main section#portafolio article div#project-right-responsive figure img { width: 80%;}
+
+    main section#portafolio article div#project-left figure { width: 100% !important;}
+    main section#portafolio article div#project-right-responsive figure { width: 100% !important;}
+
+    main section#list article div#list-skills { height: 588px; width: 165px;}
+    main section#list article div#list-skills div { width: 100%; height: 229px; margin: 0 auto 48px; float: none;}
+    main section#list article div#list-skills div:nth-child(2) { margin: 0 0 48px 0; float: right; width: 100%; height: 200px;}
+    main section#list article div#list-skills div:last-child { width: 269px; height: 100px; margin: 0;}
+
+
+ }
+
+@media only screen and (max-width: 799px){ 
+
+    /*SECTION: PRESENTACION RESPONSIVE*/
+
+    main section#presentacion article div { width: 90%; margin: 0 auto 40px;}
+
+    main section#presentacion article div h1 { font-size: 30px;}
+    main section#presentacion article div h2 { font-size: 20px; }
+    main section#presentacion article div h2 i { font-size: 6px; top: -3px ; }
+
+
+ }
+    
+@media only screen and (max-width: 699px){  }
+
+@media only screen and (max-width: 599px){  
+
+    main section#who-am-i article figure img { height: auto; width: 75%;}
+
+
+
+    main section#gallery article div nav { height: 420px;}
+}
+    
+@media only screen and (max-width: 540px){
+
+    main section#who-am-i article div { height: 342px;}
+ }
+
+@media only screen and (max-width: 499px){ 
+
+    main hr { display: none;}
+
+@media only screen and (max-width: 390px){
+
+    main section#who-am-i article { width: 80%; height: 640px;}
+    main section#who-am-i article div h4 { font-size: 27px;}
+ }
